@@ -5,7 +5,7 @@
   Simple to-do list application work with desktop, mobile and tablet.
     <br />
     <br />
-    <a href="" target="_blank"><strong>Live demo »</strong></a>
+    <a href="https://todo-list-livedemo.vercel.app/" target="_blank"><strong>Live demo »</strong></a>
     <br />
     <br />
   </p>
