@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: radial-gradient(
+    circle 993px at 0.5% 50.5%,
+    rgba(137, 171, 245, 0.37) 0%,
+    #f5f7fc 100.2%
+  );
+}
+
+.header {
+  margin: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #484b4e;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin: 2.8rem;
+  }
+}
+
+.todo-input {
+  width: 100%;
+  padding: 1rem;
+  border: 0px;
+  border-radius: 0.85rem;
+  outline: none;
+  box-shadow: 0 40px 25px -5px rgba(0, 0, 0, 0.025),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 40px 25px -5px rgba(0, 0, 0, 0.025),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .todo-input {
+    padding: 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+.item-list {
+  margin: 1rem 0;
+}
+
+.subheader {
+  margin: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #747d8c;
+}
+
+@media (min-width: 768px) {
+  .subheader {
+    margin: 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+.todo-container {
+  width: 100%;
+  display: flex;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border-radius: 0.85rem;
+  background-image: linear-gradient(110.3deg, #485563 8.8%, #7f92a6 95.1%);
+  font-size: 0.75rem;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .todo-container {
+    margin: 2rem 0;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+.todo {
+  width: 82%;
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .todo {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .todo {
+    width: 92%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .todo {
+    width: 94%;
+  }
+}
+
+.icon-container {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .icon-container {
+    width: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-container {
+    width: 8%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icon-container {
+    width: 6%;
+  }
+}
+
+i {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  i {
+    font-size: 1.1rem;
+  }
+}
